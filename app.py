@@ -20,10 +20,12 @@ st.markdown("""
 
 # Load Lottie animations
 
-
-def load_lottiefile(filepath):
-    with open(filepath, "r") as file:
-        return json.load(file)
+def load_lottiefile(url):
+    response = requests.get(url)
+    if response.status_code == 200:
+        return response.json()
+    else:
+        return None  # Or handle the error as you see fit
 
 
 # Update this path
