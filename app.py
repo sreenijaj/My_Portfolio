@@ -106,7 +106,7 @@ projects = [
 custom_css = """
 <style>
 .big-title {
-    font-size: 24px !important;
+    font-size: 28px !important;
     font-weight: bold !important;
 }
 .small-text {
@@ -120,7 +120,7 @@ st.markdown(custom_css, unsafe_allow_html=True)
 # Display Projects with Custom Styling
 for project in projects:
     # Display Projects with Custom Styling
-    with st.expander(f"**{project['title']}**", expanded=False):
+    with st.expander(f"{project['title']}", expanded=False):
         st.markdown(
             f"<div class='small-text'>{project['description']}</div>", unsafe_allow_html=True)
 
