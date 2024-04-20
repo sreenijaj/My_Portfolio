@@ -137,7 +137,7 @@ with st.container():
     st.write("**Phone:** (945)-249-2029")
 
     contact_form = """
-                <form action="https://formsubmit.co/sreenija.j1998@gmail.com" method="POST">
+                <form action="https://formsubmit.co/sreenija.jallipeta@gmail.com" method="POST">
                     <input type="hidden" name="_captcha" value="false">
                     <input type="text" name="name" placeholder="Your name" required><br>
                     <input type="email" name="email" placeholder="Your email" required><br>
