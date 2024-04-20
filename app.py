@@ -106,7 +106,7 @@ projects = [
 custom_css = """
 <style>
 .big-title {
-    font-size: 18px !important;
+    font-size: 25px !important;
     font-weight: bold !important;
 }
 .small-text {
