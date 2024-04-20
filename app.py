@@ -27,9 +27,9 @@ def load_lottiefile(filepath):
 
 
 # Update this path
-animation1_path = "/Users/sreenija.jallipeta/Desktop/Webpage/Animation - 1708066665115.json"
+animation1_path = "https://app.lottiefiles.com/animation/b5796cbc-fe04-4bc6-8e0a-cfcf550a93d2"
 # Update this path
-animation2_path = "/Users/sreenija.jallipeta/Desktop/Webpage/Animation - 1708378569899.json"
+animation2_path = "https://app.lottiefiles.com/animation/e6dfe809-f2c5-4d46-8b19-8bc08e1aa629"
 
 animation1 = load_lottiefile(animation1_path)
 animation2 = load_lottiefile(animation2_path)
