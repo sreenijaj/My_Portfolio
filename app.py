@@ -120,7 +120,7 @@ st.markdown(custom_css, unsafe_allow_html=True)
 # Display Projects with Custom Styling
 for project in projects:
     # Display Projects with Custom Styling
-    with st.expander(f"{project['title']}", expanded=False):
+    with st.expander(f"<div class='big-title'>{project['title']}</div>", expanded=False):
         st.markdown(
             f"<div class='small-text'>{project['description']}</div>", unsafe_allow_html=True)
 
