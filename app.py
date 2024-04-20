@@ -29,9 +29,9 @@ def load_lottiefile(url):
 
 
 # Update this path
-animation1_path = "https://app.lottiefiles.com/animation/b5796cbc-fe04-4bc6-8e0a-cfcf550a93d2"
+animation1_path = "https://lottie.host/34d43ec5-0e11-4a22-b958-9de09c373759/kHHlciiywS.json"
 # Update this path
-animation2_path = "https://app.lottiefiles.com/animation/e6dfe809-f2c5-4d46-8b19-8bc08e1aa629"
+animation2_path = "https://lottie.host/799f6224-4087-4d91-838b-9e812e7cc146/BnvPSRZN4H.json"
 
 animation1 = load_lottiefile(animation1_path)
 animation2 = load_lottiefile(animation2_path)
