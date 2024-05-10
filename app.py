@@ -101,6 +101,10 @@ projects = [
         "title": "Email Spam Detection System with Machine Learning (NLP)",
         "description": "Conceptualized and implemented an email spam detection system using machine learning and NLP techniques, achieving a 90% accuracy rate in filtering spam."
     },
+    {
+        "title": "Research Study on Data Analysis - Pricing in Healthcare",
+        "description": "Led a detailed analysis of healthcare pricing, employing Excel and Python for robust data cleaning and preprocessing. Designed and implemented insightful visualizations using Python and Tableau, which enabled healthcare administrators to refine and optimize pricing strategies effectively."
+    },
 ]
 
 custom_css = """
