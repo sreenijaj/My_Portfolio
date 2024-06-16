@@ -39,8 +39,9 @@ animation2 = load_lottiefile(animation2_path)
 
 # Header Section
 with st.container():
-    st.subheader("Hi :wave: I am Sreenija Jallipeta ")
-    st.title("Looking for Opportunities as Software Developer / Data analyst")
+    st.subheader("Hello, I'm Sreenija Jallipeta :wave:")
+    st.title("Eager to Explore New Opportunities in Software Development and Data Analytics")
+    st.write("With a diverse skill set and a passion for innovation, I am ready to contribute to dynamic teams and impactful projects.")
     st.write("---")
 
 st.header("**About Me**")
