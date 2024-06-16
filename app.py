@@ -66,6 +66,7 @@ with st.container():
         st.write("""
             - **Healthcare App Development**: Spearheaded the foundational development of a cutting-edge healthcare application, significantly enhancing user interaction and experience.
             - **Prototype Design**: Crafted an intuitive account management prototype, streamlining the end-user experience.
+            - **Full Stack Development**: Designed and implemented a complete account management system from the ground up, integrating both front-end usability and back-end functionality to streamline user experiences across platforms.
         """)
     with col2:
         st_lottie(animation1, height=250, key="animation1")
@@ -77,9 +78,10 @@ with st.container():
         st.subheader(
             "Tata Consultancy Services, Hyderabad - Software Developer")
         st.write("""
-            - **Automation and Efficiency**: Revolutionized testing and deployment processes through automation, accelerating software development velocity.
-            - **Data and Project Management**: Implemented sophisticated systems for deep data analysis and seamless project management, ensuring smooth operations.
-            - **Technology Mastery**: Utilized a versatile toolkit including Python, SQL, and advanced cloud computing tools, driving innovation and efficiency.
+        - **Software Development and Innovation**: Enhanced software development practices by automating routine tasks and refining deployment processes, significantly boosting development speed and quality.
+        - **Data Analytics and Integration**: Engineered robust data analysis systems that integrate seamlessly with backend operations, supporting critical decision-making and operational intelligence.
+        - **Full Stack Development**: Leveraged a comprehensive stack of technologies including Python, SQL, and modern JavaScript frameworks to build dynamic, scalable full-stack applications, enhancing both client-side and server-side performance.
+        - **DevOps Efficiency**: Advanced the automation of deployment pipelines and cloud environments using cutting-edge DevOps tools, optimizing infrastructure management and operational workflows.
         """)
     with col2:
         st_lottie(animation2, height=300, key="animation2")
@@ -92,14 +94,12 @@ projects = [
     {
         "title": "Hans Woodcrafts Digital Presence Enhancement",
         "description": "Crafted and enhanced the digital presence of Hans Woodcrafts, increasing client visibility by 40% through a meticulously designed website hosted on GoDaddy."
+        st.markdown(Explore the website at [Visit Hans Woodcrafts](https://www.hanswoodcraft.com))
     },
     {
-        "title": "Billboard Music Chart Visualization",
-        "description": "Developed a complex triple bar graph visualization using Python libraries to analyze music trends, enhancing data-driven insights by 10%."
-    },
-    {
-        "title": "Email Spam Detection System with Machine Learning (NLP)",
-        "description": "Conceptualized and implemented an email spam detection system using machine learning and NLP techniques, achieving a 90% accuracy rate in filtering spam."
+        "title": "ATS-Tracker",
+        "description": "Developed an ATS Tracker on Streamlit that evaluates resumes against job descriptions using AI, offering immediate feedback on compatibility. This interactive tool converts PDF resumes, analyzes them with Google's Gemini Pro Vision AI, and provides a detailed compatibility percentage."
+        st.markdown(Explore the website at (https://ats-tracker-of01.onrender.com/))
     },
     {
         "title": "Research Study on Data Analysis - Pricing in Healthcare",
