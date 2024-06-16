@@ -93,19 +93,18 @@ st.header(f"**Projects**")
 projects = [
     {
         "title": "Hans Woodcrafts Digital Presence Enhancement",
-        "description": "Crafted and enhanced the digital presence of Hans Woodcrafts, increasing client visibility by 40% through a meticulously designed website hosted on GoDaddy.",
-        st.markdown(Explore the website at [Visit Hans Woodcrafts](https://www.hanswoodcraft.com))
+        "description": """Crafted and enhanced the digital presence of Hans Woodcrafts, increasing client visibility by 40% through a meticulously designed website hosted on GoDaddy. <a href='https://www.hanswoodcraft.com' target='_blank'>Visit Hans Woodcrafts</a>."""
     },
     {
         "title": "ATS-Tracker",
-        "description": "Developed an ATS Tracker on Streamlit that evaluates resumes against job descriptions using AI, offering immediate feedback on compatibility. This interactive tool converts PDF resumes, analyzes them with Google's Gemini Pro Vision AI, and provides a detailed compatibility percentage.",
-        st.markdown(Explore the website at (https://ats-tracker-of01.onrender.com/))
+        "description": """Developed an ATS Tracker on Streamlit that evaluates resumes against job descriptions using AI, offering immediate feedback on compatibility. This interactive tool converts PDF resumes, analyzes them with Google's Gemini Pro Vision AI, and provides a detailed compatibility percentage. <a href='https://ats-tracker-of01.onrender.com/' target='_blank'>Explore the tool</a>."""
     },
     {
         "title": "Research Study on Data Analysis - Pricing in Healthcare",
         "description": "Led a detailed analysis of healthcare pricing, employing Excel and Python for robust data cleaning and preprocessing. Designed and implemented insightful visualizations using Python and Tableau, which enabled healthcare administrators to refine and optimize pricing strategies effectively."
     },
 ]
+
 
 custom_css = """
 <style>
