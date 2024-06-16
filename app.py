@@ -58,15 +58,20 @@ st.header("**About Me**")
 # About Me Section
 with st.container():
     custom_bullet_points = """
-        <ul style="list-style: none;">
+        <style>
+        .about-me {
+            font-size:18px; /* Adjust the font size as needed */
+        }
+        </style>
+        <ul class="about-me" style="list-style: none;">
             <li>* I am currently pursuing my final semester of Master's in Information Technology and Management at University of Texas at Dallas</li>
             <li>* I am very passionate about learning new ways to code efficiently using different technologies</li>
             <li>* I always try to look into improving myself by working more on developing my skills and knowledge</li>
         </ul>
     """
-# Use the markdown function to render the HTML
-st.markdown(custom_bullet_points, unsafe_allow_html=True)
-st.write("---")
+    # Use the markdown function to render the HTML with increased font size
+    st.markdown(custom_bullet_heads, unsafe_allow_html=True)
+    st.write("---")
 
 st.header(f"**Professional Experience**")
 # What I Did - Section 1
