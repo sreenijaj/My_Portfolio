@@ -93,12 +93,12 @@ st.header(f"**Projects**")
 projects = [
     {
         "title": "Hans Woodcrafts Digital Presence Enhancement",
-        "description": "Crafted and enhanced the digital presence of Hans Woodcrafts, increasing client visibility by 40% through a meticulously designed website hosted on GoDaddy."
+        "description": "Crafted and enhanced the digital presence of Hans Woodcrafts, increasing client visibility by 40% through a meticulously designed website hosted on GoDaddy.",
         st.markdown(Explore the website at [Visit Hans Woodcrafts](https://www.hanswoodcraft.com))
     },
     {
         "title": "ATS-Tracker",
-        "description": "Developed an ATS Tracker on Streamlit that evaluates resumes against job descriptions using AI, offering immediate feedback on compatibility. This interactive tool converts PDF resumes, analyzes them with Google's Gemini Pro Vision AI, and provides a detailed compatibility percentage."
+        "description": "Developed an ATS Tracker on Streamlit that evaluates resumes against job descriptions using AI, offering immediate feedback on compatibility. This interactive tool converts PDF resumes, analyzes them with Google's Gemini Pro Vision AI, and provides a detailed compatibility percentage.",
         st.markdown(Explore the website at (https://ats-tracker-of01.onrender.com/))
     },
     {
