@@ -51,7 +51,7 @@ with st.container():
     
     # Apply custom CSS class to specific text
     st.markdown('<p class="big-font">Eager to Explore New Opportunities in Software Development and Data Analytics</p>', unsafe_allow_html=True)
-    st.marksearch("""<p class="big-font">With a diverse skill set and a passion for innovation, I am ready to contribute to dynamic teams and impactful projects.</p>""", unsafe_allow_html=True)
+    st.markdown('<p class="big-font">With a diverse skill set and a passion for innovation, I am ready to contribute to dynamic teams and impactful projects.</p>', unsafe_allow_html=True)
     st.write("---")
 
 st.header("**About Me**")
