@@ -39,9 +39,19 @@ animation2 = load_lottiefile(animation2_path)
 
 # Header Section
 with st.container():
-    st.subheader("Hello, I'm Sreenija Jallipeta :wave:")
-    st.title("Eager to Explore New Opportunities in Software Development and Data Analytics")
-    st.write("With a diverse skill set and a passion for innovation, I am ready to contribute to dynamic teams and impactful projects.")
+    st.title("Hello, I'm Sreenija Jallipeta :wave:")
+    # Custom CSS to increase font size
+    st.markdown("""
+        <style>
+        .big-font {
+            font-size:20px;  # You can adjust the font size as needed
+        }
+        </style>
+        """, unsafe_allow_html=True)
+    
+    # Apply custom CSS class to specific text
+    st.markdown('<p class="big-font">Eager to Explore New Opportunities in Software Development and Data Analytics</p>', unsafe_allow_html=True)
+    st.marksearch("""<p class="big-font">With a diverse skill set and a passion for innovation, I am ready to contribute to dynamic teams and impactful projects.</p>""", unsafe_allow_html=True)
     st.write("---")
 
 st.header("**About Me**")
