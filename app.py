@@ -70,7 +70,7 @@ with st.container():
         </ul>
     """
     # Use the markdown function to render the HTML with increased font size
-    st.markdown(custom_bullet_heads, unsafe_allow_html=True)
+    st.markdown(custom_bullet_points, unsafe_allow_html=True)
     st.write("---")
 
 st.header(f"**Professional Experience**")
