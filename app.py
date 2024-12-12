@@ -153,7 +153,7 @@ with st.container():
 
     st.write("Feel free to reach out to me directly:")
     st.write("**Email:** sreenija.jallipeta@gmail.com")
-    st.write("**Phone:** (945)-249-2029")
+    st.write("**Phone:** (331)-688-0212")
 
     contact_form = """
                 <form action="https://formsubmit.co/sreenija.jallipeta@gmail.com" method="POST">
