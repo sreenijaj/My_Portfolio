@@ -64,7 +64,7 @@ with st.container():
         }
         </style>
         <ul class="about-me" style="list-style: none;">
-            <li>* I am currently pursuing my final semester of Master's in Information Technology and Management at University of Texas at Dallas</li>
+            <li>* I have completed my Master's in Information Technology and Management at University of Texas at Dallas</li>
             <li>* I am very passionate about learning new ways to code efficiently using different technologies</li>
             <li>* I always try to look into improving myself by working more on developing my skills and knowledge</li>
         </ul>
