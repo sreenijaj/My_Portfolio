@@ -178,12 +178,14 @@ input[type=text],input[type=email], select, textarea {
   margin-bottom: 12px; /* Bottom margin, increase if you want more space */
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
   background-color: white; /* Change the background color inside the box */
+  color: black; /* Ensure the text input is visible */
+  font-size: 16px; /* Optional: Adjust the font size */
 }
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
   background-color: black;
-  color: black;
+  color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
